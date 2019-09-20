@@ -1,0 +1,37 @@
+.side-menu {
+  background-color: var(--primary);
+  height: 100vh;
+
+  .logo {
+    margin-top: 37px;
+    width: 64px;
+  }
+
+  hr {
+    border: 0.5px solid rgba(255, 255, 255, 0.2);
+    width: 80%;
+  }
+
+  h1,
+  h3 {
+    color: var(--white);
+    font-weight: 400;
+  }
+
+  h1 {
+    margin-top: 13px;
+    font-size: 16px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  .avatar {
+    width: 64px;
+  }
+
+  button {
+    color: rgba(42, 56, 66, 0.65);
+  }
+}
